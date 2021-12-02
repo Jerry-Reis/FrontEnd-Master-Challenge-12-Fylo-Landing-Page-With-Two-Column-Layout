@@ -24,14 +24,14 @@
             </div>
             <nav>
                 <ul class="menu">
-                    <li>Features</li>
-                    <li>Team</li>
-                    <li>Sign In</li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Sign In</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main>
+        <main c>
             <section class="intro">
                 <div class="intro-info">
                     <h1>
@@ -44,11 +44,29 @@
                         collaborate with friends, family, and co-workers.
                     </p>
                     <form action="">
-                        <input type="email" name="email" id="email" />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Enter your email..."
+                        />
                         <input type="submit" value="Get Started" />
                     </form>
                 </div>
-                <div class="intro-img"></div>
+                <div class="intro-img">
+                    <img
+                        src="./images/illustration-1.svg"
+                        alt=""
+                        aria-hidden="true"
+                    />
+                </div>
+            </section>
+
+            <section class="background-curve">
+                <img
+                    src="./images/bg-curve-desktop.svg"
+                    alt=""
+                    aria-hidden="true"
+                />
             </section>
 
             <section class="testimonial">
@@ -100,6 +118,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="testimonial-img">
+                    <img
+                        src="./images/illustration-2.svg"
+                        alt=""
+                        aria-hidden="true"
+                    />
+                </div>
             </section>
 
             <section class="get-started">
@@ -113,7 +138,11 @@
                 </div>
                 <div class="started-form">
                     <form action="">
-                        <input type="email" name="email" id="email" />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="email@example.com"
+                        />
                         <input type="submit" value="Get Started For Free" />
                     </form>
                 </div>
@@ -121,7 +150,7 @@
         </main>
 
         <footer>
-            <img src="./images/logo-footer.svg" alt="Fylo" />
+            <img class="footer-img" src="./images/logo-footer.svg" alt="Fylo" />
             <div class="footer-info">
                 <div class="contact">
                     <div class="contact-info">
@@ -137,19 +166,28 @@
                 </div>
                 <div class="site-map">
                     <ul>
-                        <li>About Us</li>
-                        <li>Jobs</li>
-                        <li>Press</li>
-                        <li>Blog</li>
-                        <li>Contact Us</li>
-                        <li>Terms</li>
-                        <li>Privacy</li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>
                 <div class="social-media">
-                    <img src="./images/icon-facebook.svg" alt="Facebook" />
-                    <img src="./images/icon-twitter.svg" alt="Twitter" />
-                    <img src="./images/icon-instagram.svg" alt="Instagram" />
+                    <a href="#">
+                        <img src="./images/icon-facebook.svg" alt="Facebook" />
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon-twitter.svg" alt="Twitter" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="./images/icon-instagram.svg"
+                            alt="Instagram"
+                        />
+                    </a>
                 </div>
             </div>
         </footer>
